@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: inherit;
-}
 
 body {
     background-image: url(media/1.jpg);
