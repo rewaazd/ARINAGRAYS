@@ -1,0 +1,353 @@
+
+
+@media (max-width:1200px) {
+    /* Арина Grays */
+    .heading-name h1{
+        font-family: "Dela Gothic One", sans-serif;
+        font-size: 62px;
+        font-weight: 400;
+        text-align: center;
+        justify-content: center;
+        margin: 40px 0 50px 0;
+        letter-spacing: 3px;
+    }
+
+    .image img {
+        width: 455px;
+    }
+
+    /* Навигация сайта */
+    .navigation nav ul li{
+        width: 170px;
+        padding: 12px 16px;
+    }
+    
+    
+    .navigation nav ul li a{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    /* modals / photos */
+    .heading-about h2 {
+        font-size: 58px;
+    }
+
+    .image-card img {
+        width: 300px;
+    }
+    
+    .block-photos {
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-gap: 50px 30px;
+    }
+    
+    .one h3 {
+        top: 10%;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .one h4 {
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    .two h3 {
+        top: 10%;
+        width: 60%;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .two h4 {
+        font-size: 10px;
+    }
+    
+    .three h3 {
+        width: 87%;
+        font-size: 16px;      
+    }
+    .three h4 {
+        font-size: 10px;
+    }
+            
+    .four h3 {
+        top: 11%;
+        width: 90%;
+        font-size: 14px;
+    }
+    .four h4 {
+        font-size: 10px;
+    }
+    
+    .five h3 {
+        top: 11%;
+        width: 60%;
+        font-size: 16px;  
+    }
+    .five h4 {
+        font-size: 10px;
+    }
+    
+    .seven h3 {
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        font-size: 15px;
+    }
+    
+    .seven h4 {
+        font-size: 10px;
+    }
+    
+
+    /* Продукты */
+    .heading-product h2 {
+        font-size: 58px;
+    }
+    
+    .glass {
+        width: 680px;
+        height: 730px;
+    }
+    
+    .heading-mainstage h3 {
+        width: 200px;
+        font-size: 40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin: 40px auto 25px auto;
+        color: white;    
+    }
+
+    .image-mainstage img{
+        margin: 30px auto 0 auto;
+        display: block;
+        width: 455px;
+        border-radius: 10px;
+    }
+    
+    
+    .link-mainstage {
+        margin: 20px auto;
+        text-align: center;
+        background: #191919;
+        width: 345px;
+        padding: 13px 20px;
+    }
+
+
+    .link-mainstage a {
+        font-size: 22px;
+    }
+    
+    .glass-2 {
+        width: 680px;
+        height: 760px;
+    }
+    
+    .heading-premier h3 {
+        font-size: 40px; 
+    }
+    
+    .image-premier img{
+        margin: 30px auto 20px auto;
+        width: 455px;
+    }
+    
+    .paragraph-premier {
+        font-size: 22px;
+        margin-bottom: 15px;
+    } 
+    .paragraph-last-premier {
+        font-size: 11px;
+    }
+    
+    .link-premier {
+        width: 290px;
+        padding: 10px 20px;
+    }
+    
+    .link-premier a {
+        font-size: 22px;     
+    }
+    
+    .glass-3 {
+        width: 680px;
+        height: 745px;
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-size: 42px;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 20px auto;
+        width: 455px;
+    }
+     
+    
+    .paragraph-performances {
+        font-size: 22px;
+    }
+    
+    .link-performances {
+        width: 230px;
+        padding: 11px 10px;
+    }
+    
+    
+    .link-performances a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    /* Сотрудничество */
+    
+    .heading-cooperation h3{
+        font-size: 58px;
+    }
+    
+    .never h4, .consultation h4{
+        font-size: 36px;
+    
+    }
+    
+    .org h4{
+        font-size: 36px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 58px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:992px) {
+   
+    .image-card img {
+        width: 300px;
+    }
+    
+    .block-photos {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px 75px;
+    }
+    
+    .one h3 {
+        top: 10%;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .one h4 {
+        font-size: 10px;
+    }
+    
+    .two h3 {
+        top: 10%;
+        width: 60%;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .two h4 {
+        font-size: 10px;
+    }
+    
+    .three h3 {
+        top: 11%;
+        width: 87%;
+        font-size: 16px;      
+    }
+    .three h4 {
+        font-size: 10px;
+    }
+            
+    .four h3 {
+        top: 11%;
+        width: 90%;
+        font-size: 14px;
+    }
+    .four h4 {
+        font-size: 10px;
+    }
+    
+    .five h3 {
+        top: 11%;
+        width: 60%;
+        font-size: 16px;  
+    }
+    .five h4 {
+        font-size: 10px;
+    }
+    
+    .seven h3 {
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        font-size: 15px;
+    }
+    
+    .seven h4 {
+        font-size: 10px;
+    }
+
+    .one {
+        justify-self: end;
+    }
+    .two {
+        justify-self: start;
+    }
+    .three {
+        justify-self: end;
+    }
+    .four {
+        justify-self: start;
+    }
+    .five {
+        justify-self: end;
+    }
+    .seven {
+        justify-self: start;
+    }
+    
+ 
+}
+
+@media (max-width:768px) {
+    
+
+
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (max-width:320px) {
+    
+}
