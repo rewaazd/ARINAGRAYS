@@ -11,6 +11,10 @@
 html {
     display: table;
     width: 100%;
+    -webkit-text-size-adjust : none;
+    text-size-adjust: none;
+    -webkit-text-size-adjust : 100%;
+    text-size-adjust         : 100%
 }
 
 body {
@@ -22,6 +26,7 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
+
 
 
 
@@ -37,6 +42,7 @@ body {
     margin: 40px auto 50px auto;
     letter-spacing: 3px;
 }
+
 
 
 
