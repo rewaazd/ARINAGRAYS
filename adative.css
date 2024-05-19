@@ -1,6 +1,6 @@
 
 
-@media (max-width:1200px) {
+@media screen and (max-width:1200px) {
     /* Арина Grays */
     .heading-name h1{
         font-family: "Dela Gothic One", sans-serif;
@@ -243,9 +243,29 @@
     .socials nav ul li a{
         font-size: 32px;
     }
+
+    #socialspinst {
+        font-family: Unbounded;
+        font-size: 8px;
+        width: 300px;
+        line-height: 10px;
+        opacity: .5;
+        padding: 0;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .socials p {
+        font-family: Bradley;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 30px 0 20px 0;
+        margin: auto;
+        opacity: .9;
+    }
 }
 
-@media (max-width:992px) {
+@media screen and (max-width:1024px) {
    
     .image-card img {
         width: 300px;
@@ -334,20 +354,438 @@
     .seven {
         justify-self: start;
     }
+
+    .heading-cooperation h3{
+        font-size: 54px;
+    }
     
- 
+    .never h4, .consultation h4{
+        font-size: 34px;
+    
+    }
+    
+    .org h4{
+        font-size: 34px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 54px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+
+    .socials p {
+        font-size: 11px;
+    }
+
 }
 
-@media (max-width:768px) {
+
+@media screen and (max-width:800px) {
+    /* Продукты */
+    .heading-product h2 {
+        font-size: 54px;
+    }
     
+    .glass {
+        width: 610px;
+        height: 670px;
+    }
+    
+    .heading-mainstage h3 {
+        font-size: 36px;
+    }
+
+    .image-mainstage img{
+        margin: 30px auto 20px auto;
+        width: 410px;
+    }
+    
+    .link-mainstage {
+        margin: 15px auto;
+        width: 310px;
+    }
+
+    .link-mainstage a {
+        font-size: 20px;
+    }
+    
+    /* glass-2 */
+
+    .glass-2 {
+        width: 610px;
+        height: 695px;
+    }
+    
+    .heading-premier h3 {
+        font-size: 36px; 
+    }
+    
+    .image-premier img{
+        margin: 30px auto 15px auto;
+        width: 410px;
+    }
+    
+    .paragraph-premier {
+        font-size: 20px;
+    } 
+    .paragraph-last-premier {
+        font-size: 10px;
+    }
+    
+    .link-premier {
+        width: 260px;
+        padding: 10px 20px;
+    }
+    
+    .link-premier a {
+        font-size: 20px;     
+    }
+    
+    /* glass-3 */
+
+    .glass-3 {
+        width: 610px;
+        height: 670px;
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-size: 38px;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 15px auto;
+        width: 410px;
+    }
+     
+    
+    .paragraph-performances {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .link-performances {
+        width: 230px;
+        padding: 11px 10px;
+        margin: 10px auto;
+    }
+  
+    .link-performances a {
+        font-size: 20px;      
+    }
 
 
+    /* Сотрудничество */
+    
+    .heading-cooperation h3{
+        font-size: 50px;
+    }
+    
+    .never h4, .consultation h4{
+        font-size: 32px;
+    
+    }
+    
+    .org h4{
+        font-size: 32px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 54px;
+        width: 500px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+    .socials p {
+        font-size: 11px;
+    }
 }
 
-@media (max-width:480px) {
+
+
+
+@media screen and (max-width:430px) {
+    .heading-name h1{
+        font-size: 92px;
+        margin: 40px auto 50px auto;
+    }
+    .image img {
+        display: block;
+        border-radius: 10px;
+        width: 600px;
+        margin: 0px auto 50px auto;
+    }
     
+    .navigation nav ul {
+        flex-wrap: wrap;
+    }
+    
+    .navigation nav ul li{
+        background: #0a0a0a;
+        width: 300px;
+        padding: 20px 16px;
+        border-radius: 15px;
+        transition: all 1s;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .navigation nav ul li a{
+        font-size: 24px;
+    }
+    .heading-about h2 {
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 82px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin: 40px auto 50px auto;
+    }
+
+    .image-card img {
+        width: 500px;
+    }
+    .block-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75px 30px;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .one h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        border-radius: 15px;
+        padding: 10px 16px;
+        line-height: 30px;
+    }
+    
+    .one h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .two h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 30px;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .two h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .three h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        padding: 10px 16px;     
+    }
+    .three h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+            
+    .four h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 35px;
+        width: 95%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    .four h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .five h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        padding: 10px 16px;
+        line-height: 30px;
+    }
+    .five h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .seven h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 92%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        line-height: 30px;
+        padding: 10px 16px;
+    }
+    
+    .seven h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+
+    .one {
+        justify-self: center;
+    }
+    .two {
+        justify-self: center;
+    }
+    .three {
+        justify-self: center;
+    }
+    .four {
+        justify-self: center;
+    }
+    .five {
+        justify-self: center;
+    }
+    .seven {
+        justify-self: center;
+    }
+    .heading-product h2 {
+        font-family:  "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 70px;
+        text-align: center;
+        margin: 40px auto 50px auto;
+        letter-spacing: 3px;
+    }
 }
 
-@media (max-width:320px) {
+
+@media screen and (max-width:320px) {
     
 }
