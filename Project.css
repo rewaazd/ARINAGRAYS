@@ -13,20 +13,14 @@ html {
     width: 100%;
     -webkit-text-size-adjust : none;
     text-size-adjust: none;
-    -webkit-text-size-adjust : 100%;
-    text-size-adjust         : 100%
-}
-
-body {
     background-image: url(media/1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     color: #fff;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
-
 
 
 
