@@ -1,0 +1,1058 @@
+
+
+@media screen and (max-width:1200px) {
+    /* Арина Grays */
+    .heading-name h1{
+        font-family: "Dela Gothic One", sans-serif;
+        font-size: 62px;
+        font-weight: 400;
+        text-align: center;
+        justify-content: center;
+        margin: 40px 0 50px 0;
+        letter-spacing: 3px;
+    }
+
+    .image img {
+        width: 455px;
+    }
+
+    /* Навигация сайта */
+    .navigation nav ul li{
+        width: 170px;
+        padding: 12px 16px;
+    }
+    
+    
+    .navigation nav ul li a{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    /* modals / photos */
+    .heading-about h2 {
+        font-size: 58px;
+    }
+
+    .image-card img {
+        width: 300px;
+    }
+    
+    .block-photos {
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-gap: 50px 30px;
+    }
+    
+    .one h3 {
+        top: 10%;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .one h4 {
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    .two h3 {
+        top: 10%;
+        width: 60%;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .two h4 {
+        font-size: 10px;
+    }
+    
+    .three h3 {
+        width: 87%;
+        font-size: 16px;      
+    }
+    .three h4 {
+        font-size: 10px;
+    }
+            
+    .four h3 {
+        top: 11%;
+        width: 90%;
+        font-size: 14px;
+    }
+    .four h4 {
+        font-size: 10px;
+    }
+    
+    .five h3 {
+        top: 11%;
+        width: 60%;
+        font-size: 16px;  
+    }
+    .five h4 {
+        font-size: 10px;
+    }
+    
+    .seven h3 {
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        font-size: 15px;
+    }
+    
+    .seven h4 {
+        font-size: 10px;
+    }
+    
+
+    /* Продукты */
+    .heading-product h2 {
+        font-size: 58px;
+    }
+    
+    .glass {
+        width: 680px;
+        height: 730px;
+    }
+    
+    .heading-mainstage h3 {
+        width: 200px;
+        font-size: 40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin: 40px auto 25px auto;
+        color: white;    
+    }
+
+    .image-mainstage img{
+        margin: 30px auto 0 auto;
+        display: block;
+        width: 455px;
+        border-radius: 10px;
+    }
+    
+    
+    .link-mainstage {
+        margin: 20px auto;
+        text-align: center;
+        background: #191919;
+        width: 345px;
+        padding: 13px 20px;
+    }
+
+
+    .link-mainstage a {
+        font-size: 22px;
+    }
+    
+    .glass-2 {
+        width: 680px;
+        height: 760px;
+    }
+    
+    .heading-premier h3 {
+        font-size: 40px; 
+    }
+    
+    .image-premier img{
+        margin: 30px auto 20px auto;
+        width: 455px;
+    }
+    
+    .paragraph-premier {
+        font-size: 22px;
+        margin-bottom: 15px;
+    } 
+    .paragraph-last-premier {
+        font-size: 11px;
+    }
+    
+    .link-premier {
+        width: 290px;
+        padding: 10px 20px;
+    }
+    
+    .link-premier a {
+        font-size: 22px;     
+    }
+    
+    .glass-3 {
+        width: 680px;
+        height: 745px;
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-size: 42px;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 20px auto;
+        width: 455px;
+    }
+     
+    
+    .paragraph-performances {
+        font-size: 22px;
+    }
+    
+    .link-performances {
+        width: 230px;
+        padding: 11px 10px;
+    }
+    
+    
+    .link-performances a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    /* Сотрудничество */
+    
+    .heading-cooperation h3{
+        font-size: 58px;
+    }
+    
+    .never h4, .consultation h4{
+        font-size: 36px;
+    
+    }
+    
+    .org h4{
+        font-size: 36px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 58px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+
+    #socialspinst {
+        font-family: Unbounded;
+        font-size: 8px;
+        width: 300px;
+        line-height: 10px;
+        opacity: .5;
+        padding: 0;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .socials p {
+        font-family: Bradley;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 30px 0 20px 0;
+        margin: auto;
+        opacity: .9;
+    }
+}
+
+@media screen and (max-width:1024px) {
+   
+    .image-card img {
+        width: 300px;
+    }
+    
+    .block-photos {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px 75px;
+    }
+    
+    .one h3 {
+        top: 10%;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .one h4 {
+        font-size: 10px;
+    }
+    
+    .two h3 {
+        top: 10%;
+        width: 60%;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .two h4 {
+        font-size: 10px;
+    }
+    
+    .three h3 {
+        top: 11%;
+        width: 87%;
+        font-size: 16px;      
+    }
+    .three h4 {
+        font-size: 10px;
+    }
+            
+    .four h3 {
+        top: 11%;
+        width: 90%;
+        font-size: 14px;
+    }
+    .four h4 {
+        font-size: 10px;
+    }
+    
+    .five h3 {
+        top: 11%;
+        width: 60%;
+        font-size: 16px;  
+    }
+    .five h4 {
+        font-size: 10px;
+    }
+    
+    .seven h3 {
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        font-size: 15px;
+    }
+    
+    .seven h4 {
+        font-size: 10px;
+    }
+
+    .one {
+        justify-self: end;
+    }
+    .two {
+        justify-self: start;
+    }
+    .three {
+        justify-self: end;
+    }
+    .four {
+        justify-self: start;
+    }
+    .five {
+        justify-self: end;
+    }
+    .seven {
+        justify-self: start;
+    }
+
+    .heading-cooperation h3{
+        font-size: 54px;
+    }
+    
+    .never h4, .consultation h4{
+        font-size: 34px;
+    
+    }
+    
+    .org h4{
+        font-size: 34px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 54px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+
+    .socials p {
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width:800px) {
+    /* Продукты */
+    .heading-product h2 {
+        font-size: 54px;
+    }
+    
+    .glass {
+        width: 610px;
+        height: 670px;
+    }
+    
+    .heading-mainstage h3 {
+        font-size: 36px;
+    }
+
+    .image-mainstage img{
+        margin: 30px auto 20px auto;
+        width: 410px;
+    }
+    
+    .link-mainstage {
+        margin: 15px auto;
+        width: 310px;
+    }
+
+    .link-mainstage a {
+        font-size: 20px;
+    }
+    
+    /* glass-2 */
+
+    .glass-2 {
+        width: 610px;
+        height: 695px;
+    }
+    
+    .heading-premier h3 {
+        font-size: 36px; 
+    }
+    
+    .image-premier img{
+        margin: 30px auto 15px auto;
+        width: 410px;
+    }
+    
+    .paragraph-premier {
+        font-size: 20px;
+    } 
+    .paragraph-last-premier {
+        font-size: 10px;
+    }
+    
+    .link-premier {
+        width: 260px;
+        padding: 10px 20px;
+    }
+    
+    .link-premier a {
+        font-size: 20px;     
+    }
+    
+    /* glass-3 */
+
+    .glass-3 {
+        width: 610px;
+        height: 670px;
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-size: 38px;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 15px auto;
+        width: 410px;
+    }
+     
+    
+    .paragraph-performances {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .link-performances {
+        width: 230px;
+        padding: 11px 10px;
+        margin: 10px auto;
+    }
+  
+    .link-performances a {
+        font-size: 20px;      
+    }
+
+
+    /* Сотрудничество */
+    
+    .heading-cooperation h3{
+        font-size: 50px;
+    }
+    
+    .never h4, .consultation h4{
+        font-size: 32px;
+    
+    }
+    
+    .org h4{
+        font-size: 32px;
+    } 
+
+    /* Socials */
+    .heading-socials h4{
+        font-size: 54px;
+        width: 500px;
+    }
+    
+    .socials nav ul li a{
+        font-size: 32px;
+    }
+    .socials p {
+        font-size: 11px;
+    }
+}
+
+
+
+
+@media screen and (max-width:430px) {
+    .heading-name h1{
+        font-size: 92px;
+        margin: 40px auto 50px auto;
+    }
+    .image img {
+        display: block;
+        border-radius: 10px;
+        width: 600px;
+        margin: 0px auto 50px auto;
+    }
+    
+    .navigation nav ul {
+        flex-wrap: wrap;
+    }
+    
+    .navigation nav ul li{
+        background: #0a0a0a;
+        width: 300px;
+        padding: 20px 16px;
+        border-radius: 15px;
+        transition: all 1s;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .navigation nav ul li a{
+        font-size: 24px;
+    }
+    .heading-about h2 {
+        font-family: "Dela Gothic One", sans-serif;
+        font-weight: 400;
+        font-size: 82px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin: 40px auto 50px auto;
+    }
+
+    .image-card img {
+        width: 500px;
+    }
+    .block-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 75px 30px;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .one h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        border-radius: 15px;
+        padding: 10px 16px;
+        line-height: 30px;
+    }
+    
+    .one h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .two h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 30px;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .two h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .three h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.75);
+        border-radius: 15px;
+        padding: 10px 16px;     
+    }
+    .three h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+            
+    .four h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 35px;
+        width: 95%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    .four h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .five h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        padding: 10px 16px;
+        line-height: 30px;
+    }
+    .five h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+    
+    .seven h3 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 92%;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        background: rgba(15, 15, 15, 0.7);
+        border-radius: 15px;
+        line-height: 30px;
+        padding: 10px 16px;
+    }
+    
+    .seven h4 {
+        position: absolute;
+        font-family: Montserrat;
+        font-weight: 400;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        background: rgba(15, 15, 15, 0.4);
+        border-radius: 15px;
+        padding: 10px 16px;
+    }
+
+    .one {
+        justify-self: center;
+    }
+    .two {
+        justify-self: center;
+    }
+    .three {
+        justify-self: center;
+    }
+    .four {
+        justify-self: center;
+    }
+    .five {
+        justify-self: center;
+    }
+    .seven {
+        justify-self: center;
+    }
+    .heading-product h2 {
+        font-size: 72px;
+    }
+    .glass {
+        background: rgb(15, 15,15);
+        height: 840px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+    .heading-mainstage h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 58px;
+        align-items: center;
+        text-align: center;
+        margin: 40px auto 25px auto;
+        color: white;
+    }
+    .image-mainstage img{
+        margin: 30px auto 20px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .link-mainstage {
+        margin: 30px auto;
+        text-align: center;
+        background: #191919;
+        width: 375px;
+        padding: 13px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-mainstage a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: white;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    .glass-2 {
+        background: rgb(15, 15,15);
+        height: 1000px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+
+    .heading-premier h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 68px;
+        width: 400px;
+        text-align: center;
+        margin: 40px auto 25px auto;
+        color: gold;
+    
+    }
+    
+    .image-premier img{
+        margin: 30px auto 25px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+    
+    .paragraph-premier {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .paragraph-premier p{
+        padding: 5px 0 5px 0;
+    }
+    
+    
+    .paragraph-last-premier {
+        display: flex;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        width: 250px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        text-align: center;
+        opacity: .5;
+    }
+    
+    .link-premier {
+        margin: 10px auto 10px auto;
+        background: #191919;
+        width: 320px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-premier a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;   
+    }
+
+    .glass-3 {
+        background: rgb(15, 15,15);
+        height: 900px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 58px;
+        text-align: center;
+        margin: 40px 0 25px 0;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 25px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+     
+    
+    .paragraph-performances {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        width: 410px;
+        margin: auto;
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .paragraph-performances p{
+        padding: 5px 0 5px 0;
+    }
+    
+    .link-performances {
+        margin: 20px auto;
+        background: #191919;
+        width: 250px;
+        padding: 13px 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-performances a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    .heading-cooperation h3{
+        font-family: Dela Gothic One, sans-serif;
+        text-align: center;
+        letter-spacing: 0px;
+        margin: 40px 25px 25px 25px;  
+    }
+    .never h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        width: 500px;
+        margin: 40px auto 25px auto;
+    }
+    .consultation h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 25px auto 25px auto;
+        width: 500px;
+    }
+    .org {
+        max-width: 500px;
+        margin: auto;
+    }
+    .org h4{
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+    } 
+
+    .heading-socials h4{
+        font-family: Dela Gothic One, sans-serif;
+        font-size: 66px;
+        text-align: center;   
+        margin: 40px auto 25px auto;
+        width: 600px;
+    }
+    .socials nav ul li a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: Prompt, sans-serif;
+        font-weight: 400;
+        transition: all 0.4s;
+        align-items: center;    
+        justify-content: center;
+        font-size: 46px;
+        margin: 5px;
+    
+    }
+
+    .beforeinst {
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 7px;
+        opacity: .7;
+    }
+    #socialspinst {
+        font-family: Unbounded;
+        font-size: 12px;
+        width: 400px;
+        line-height: 15px;
+        opacity: .5;
+        padding: 0;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .socials p {
+        font-family: Bradley;
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 30px 0 20px 0;
+        margin: auto;
+        opacity: .9;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    
+}

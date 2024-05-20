@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: table;
+    width: 100%;
+    -webkit-text-size-adjust : none;
+    text-size-adjust: none;
+    background-image: url(media/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow-x: hidden; 
+}
+
+
+
+/* HEADER */
+
+.heading-name h1{
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto 50px auto;
+    letter-spacing: 3px;
+}
+
+
+
+
+.image img {
+    display: block;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0px auto 50px auto;
+}
+
+
+.navigation nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 60px;
+    gap: 20px 30px;
+}
+
+.navigation nav ul li{
+    background: #0a0a0a;
+    width: 200px;
+    padding: 15px 16px;
+    border-radius: 15px;
+    transition: all 1s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.navigation nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.3s;
+    align-items: center;    
+    justify-content: center;
+}
+
+.navigation nav ul li a:hover{
+    opacity: .8;
+}
+
+.navigation nav ul li:hover{
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, .4);
+} 
+
+
+/* HR */
+
+hr {
+    width: 1250px;
+    border: 0.01px solid rgba(200, 200, 200, 0.35);
+    border-radius: 5px;
+}
+
+
+
+/* MAIN */
+
+
+
+main{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+
+
+
+.heading-about h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 40px auto 25px auto;
+}
+
+.image-card img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.image-card {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block-photos {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 75px 30px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+.one {
+    justify-self: end;
+}
+.three {
+    justify-self: start;
+}
+.four {
+    justify-self: end;
+}
+.seven {
+    justify-self: start;
+}
+
+
+
+.one h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px 16px;
+    line-height: 20px;
+}
+
+.one h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+
+
+
+.two h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-size: 18px;
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+.two h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+.three h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+    padding: 10px 16px;
+    
+}
+.three h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+    
+.four h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 20px;
+    width: 95%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(15, 15, 15, 0.7);
+    border-radius: 15px;
+    padding: 10px 16px;
+    
+}
+.four h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+.five h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(15, 15, 15, 0.7);
+    border-radius: 15px;
+    padding: 10px 16px;
+    line-height: 20px;
+    
+}
+.five h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+.seven h3 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(15, 15, 15, 0.7);
+    border-radius: 15px;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.seven h4 {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 400;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    line-height: 10px;
+    font-size: 12px;
+    background: rgba(15, 15, 15, 0.4);
+    border-radius: 15px;
+    padding: 10px 16px;
+}
+
+
+
+
+
+
+/* PRODUCTS */
+
+
+.products {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.heading-product h2 {
+    font-family:  "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    margin: 40px auto 50px auto;
+    letter-spacing: 3px;
+}
+
+.glass {
+    background: rgb(15, 15,15);
+    width: 750px;
+    height: 810px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+
+
+.heading-mainstage h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    align-items: center;
+    text-align: center;
+    margin: 40px 150px 25px 150px;
+    color: white;
+}
+
+.image-mainstage img{
+    margin: 30px auto 40px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+.link-mainstage {
+    margin: 30px auto;
+    text-align: center;
+    background: #191919;
+    width: 380px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-mainstage a {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    align-items: center;    
+    justify-content: center;
+    transition: all .5s;
+    
+}
+
+
+.link-mainstage:hover {
+    border-radius: 15px;
+}
+
+.link-mainstage a:hover {
+    opacity: .9;    
+}
+
+
+
+.glass-2 {
+    background: rgb(15, 15,15);
+    width: 750px;
+    height: 835px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+.heading-premier h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    margin: 40px 0 25px 0;
+    color: gold;
+
+}
+
+.image-premier img{
+    margin: 30px auto 25px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.paragraph-premier {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.paragraph-premier p{
+    padding: 5px 0 5px 0;
+}
+
+
+.paragraph-last-premier {
+    display: flex;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: .5;
+}
+
+.link-premier {
+    margin: 10px auto 10px auto;
+    background: #191919;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-premier a {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    align-items: center;    
+    justify-content: center;
+    transition: all .5s;
+    
+}
+
+.link-premier:hover {
+    border-radius: 15px;
+}
+
+.link-premier a:hover {
+    opacity: .8;    
+}
+
+.glass-3 {
+    background: rgb(15, 15,15);
+    width: 750px;
+    height: 820px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+
+
+.heading-performances h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    margin: 40px 0 25px 0;
+
+}
+
+
+.image-performances img{
+    margin: 10px auto 25px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+ 
+
+.paragraph-performances {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.paragraph-performances p{
+    padding: 5px 0 5px 0;
+}
+
+.link-performances {
+    margin: 20px auto;
+    background: #191919;
+    width: 250px;
+    padding: 13px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-performances a {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    align-items: center;    
+    justify-content: center;
+    transition: all .5s;
+    
+}
+
+.link-performances:hover {
+    border-radius: 15px;
+}
+
+.link-performances a:hover {
+    opacity: .8;    
+} 
+
+
+.tn-atom {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80vw;
+    height: 1px;
+    margin: auto;
+}
+
+.tn-atom-design {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 25vw;
+    height: 1px;
+    margin: auto;
+}
+.tn-atom-coop {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70vw;
+    height: 1px;
+    margin: auto;
+}
+
+
+
+/* COOPERATION */
+
+.cooperation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.heading-cooperation h3{
+    font-family: Dela Gothic One, sans-serif;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 40px auto 25px auto;  
+}
+
+.never h4, .consultation h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px auto 25px auto;
+
+}
+
+.org {
+    max-width: 700px;
+    margin: auto;
+}
+
+.org h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+} 
+
+#consult {
+    line-height: 50px;
+}
+
+
+/* SOCIALS */
+
+.our-socials {
+    margin-top: 50px;
+}
+
+
+
+.heading-socials h4{
+    font-family: Dela Gothic One, sans-serif;
+    font-size: 64px;
+    text-align: center;   
+    margin: 40px auto 25px auto;
+    letter-spacing: 3px;
+}
+
+.socials nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px 30px;
+    margin: 30px auto 0px auto;
+    
+}
+
+.socials nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Prompt, sans-serif;
+    font-weight: 400;
+    transition: all 0.4s;
+    align-items: center;    
+    justify-content: center;
+    font-size: 36px;
+    margin: 5px;
+
+}
+
+.socials nav ul li a:hover{
+    opacity: .8;
+}
+
+.socials nav ul li:hover{
+    border-radius: 15px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+
+}
+.beforeinst {
+    font-size: 20px;
+    
+    margin-right: 5px;
+    margin-bottom: 7px;
+    opacity: .7;
+}
+
+#socialspinst {
+    font-family: Unbounded;
+    font-size: 9px;
+    width: 300px;
+    line-height: 10px;
+    opacity: .5;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* DESIGN BY */
+
+@font-face {
+    font-family: Bradley;
+    src: url(media/Bradleys\ Pen.ttf);
+}
+
+
+.socials p {
+    font-family: Bradley;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 30px 0 20px 0;
+    margin: auto;
+    opacity: .9;
+}
+
+
+
+
+/* Modal Window 1st button */
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.body-hidden {
+    overflow-y: hidden;
+    padding-right: 19px;
+    background-position-x: -10px;
+    background-color: black;
+}
+
+
+
+.modal-window {
+    position: relative;
+    z-index: 1;
+    width: 700px;
+    height: 850px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal.open .modal-window {
+    transform: scale(1);
+}
+
+
+#btn-close {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+/* 2nd button */
+
+.modal-2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-2.open{
+    visibility: visible;                                                                            
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-2 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: 670px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-2.open .modal-window-2 {
+    transform: scale(1);
+}
+
+
+#btn-close-2 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-2 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-2 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+  
+/* 3rd button */
+
+.modal-3 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-3.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-3 {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    height: 700px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-3.open .modal-window-3 {
+    transform: scale(1);
+}
+
+
+#btn-close-3 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-3 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-3 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+/* 4th button */
+
+.modal-4 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-4.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-4 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: 630px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-4.open .modal-window-4 {
+    transform: scale(1);
+}
+
+
+#btn-close-4 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-4 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-4 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* 5th button */
+
+.modal-5 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-5.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-5 {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    height: 250px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-5.open .modal-window-5 {
+    transform: scale(1);
+}
+
+
+#btn-close-5 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-5 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-5 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* 6 button */
+
+.modal-6 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-6.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-6 {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    height: 330px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: auto;
+}
+
+.modal-6.open .modal-window-6 {
+    transform: scale(1);
+}
+
+
+#btn-close-6 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-6 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-6 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* 7 button  */
+
+.modal-7 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-7.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-7 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    height: 750px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-7.open .modal-window-7 {
+    transform: scale(1);
+}
+
+
+#btn-close-7 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-7 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-7 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 19px;
+}
+
+::-webkit-scrollbar-track {
+    background-image: url(media/1.jpg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+    border: 5px solid rgb(2 2 2);
+    transition: all .5s;
+}
