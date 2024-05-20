@@ -783,6 +783,16 @@
         margin: 40px auto 50px auto;
         letter-spacing: 3px;
     }
+    html {
+        background-image: url(media/background2.jpg); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size:cover;
+        background-size: cover;
+    }
 }
 
 
