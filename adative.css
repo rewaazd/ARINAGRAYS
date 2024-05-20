@@ -776,22 +776,279 @@
         justify-self: center;
     }
     .heading-product h2 {
-        font-family:  "Dela Gothic One", sans-serif;
-        font-weight: 400;
-        font-size: 70px;
-        text-align: center;
-        margin: 40px auto 50px auto;
-        letter-spacing: 3px;
+        font-size: 72px;
     }
-    html {
-        background-image: url(media/background2.jpg); 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size:cover;
-        background-size: cover;
+    .glass {
+        background: rgb(15, 15,15);
+        height: 840px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+    .heading-mainstage h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 58px;
+        align-items: center;
+        text-align: center;
+        margin: 40px auto 25px auto;
+        color: white;
+    }
+    .image-mainstage img{
+        margin: 30px auto 20px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .link-mainstage {
+        margin: 30px auto;
+        text-align: center;
+        background: #191919;
+        width: 375px;
+        padding: 13px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-mainstage a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: white;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    .glass-2 {
+        background: rgb(15, 15,15);
+        height: 1000px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+
+    .heading-premier h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 68px;
+        width: 400px;
+        text-align: center;
+        margin: 40px auto 25px auto;
+        color: gold;
+    
+    }
+    
+    .image-premier img{
+        margin: 30px auto 25px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+    
+    .paragraph-premier {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .paragraph-premier p{
+        padding: 5px 0 5px 0;
+    }
+    
+    
+    .paragraph-last-premier {
+        display: flex;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        width: 250px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        text-align: center;
+        opacity: .5;
+    }
+    
+    .link-premier {
+        margin: 10px auto 10px auto;
+        background: #191919;
+        width: 320px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-premier a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;   
+    }
+
+    .glass-3 {
+        background: rgb(15, 15,15);
+        height: 900px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(255,255,255,0.38);
+    }
+    
+    
+    
+    .heading-performances h3 {
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+        font-size: 58px;
+        text-align: center;
+        margin: 40px 0 25px 0;
+    
+    }
+    
+    
+    .image-performances img{
+        margin: 10px auto 25px auto;
+        display: block;
+        width: 500px;
+        border-radius: 10px;
+    }
+     
+    
+    .paragraph-performances {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        width: 410px;
+        margin: auto;
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .paragraph-performances p{
+        padding: 5px 0 5px 0;
+    }
+    
+    .link-performances {
+        margin: 20px auto;
+        background: #191919;
+        width: 250px;
+        padding: 13px 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.38);
+        transition: all 1s;
+        line-height: 30px;
+    }
+    
+    
+    .link-performances a {
+        display: flex;
+        text-decoration: none;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        color: #fff;
+        align-items: center;    
+        justify-content: center;
+        transition: all .5s;
+        
+    }
+
+    .heading-cooperation h3{
+        font-family: Dela Gothic One, sans-serif;
+        text-align: center;
+        letter-spacing: 0px;
+        margin: 40px 25px 25px 25px;  
+    }
+    .never h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        width: 500px;
+        margin: 40px auto 25px auto;
+    }
+    .consultation h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 25px auto 25px auto;
+        width: 500px;
+    }
+    .org {
+        max-width: 500px;
+        margin: auto;
+    }
+    .org h4{
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+    } 
+
+    .heading-socials h4{
+        font-family: Dela Gothic One, sans-serif;
+        font-size: 66px;
+        text-align: center;   
+        margin: 40px auto 25px auto;
+        width: 600px;
+    }
+    .socials nav ul li a{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: Prompt, sans-serif;
+        font-weight: 400;
+        transition: all 0.4s;
+        align-items: center;    
+        justify-content: center;
+        font-size: 46px;
+        margin: 5px;
+    
+    }
+
+    .beforeinst {
+        font-size: 30px;
+        margin-right: 5px;
+        margin-bottom: 7px;
+        opacity: .7;
+    }
+    #socialspinst {
+        font-family: Unbounded;
+        font-size: 12px;
+        width: 400px;
+        line-height: 15px;
+        opacity: .5;
+        padding: 0;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+    .socials p {
+        font-family: Bradley;
+        font-size: 20px;
+        width: 350px;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 30px 0 20px 0;
+        margin: auto;
+        opacity: .9;
     }
 }
 
