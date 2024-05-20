@@ -11,12 +11,23 @@ html {
     width: 100%;
     -webkit-text-size-adjust : none;
     text-size-adjust: none;
+
     background-image: url(media/1.jpg);
     background-repeat: no-repeat;
+
+    background-position: center center;
+
     background-attachment: fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
     background-size: cover;
-    background-position: center;
-    color: #fff;
+
+    color: black;
     overflow-x: hidden; 
 }
 
@@ -30,6 +41,7 @@ html {
     justify-content: center;
     margin: 40px auto 50px auto;
     letter-spacing: 3px;
+    color: white;
 }
 
 
